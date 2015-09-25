@@ -87,7 +87,11 @@ bool AlphaHitWindow::renderingEndedHandler(const CEGUI::EventArgs& args)
     }
 
     // save details about what will be in the buffer
+<<<<<<< HEAD
     //d_hitBufferInverted = tt.isRenderingInverted();
+=======
+    d_hitBufferInverted = CEGUI::System::getSingleton().getRenderer()->isTexCoordSystemFlipped();
+>>>>>>> Revolutionary-Games/master
     d_hitBufferSize = tex_sz;
 
     // grab a copy of the data.

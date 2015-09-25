@@ -58,8 +58,7 @@ Step 2a is optional but recommended for beginners to the project.
 If you choose step 2a, you should skip forward to step 5. after completion.
 
 *  Download the archive found here:
-    https://mega.co.nz/#!dVRyVJJb!uJA5r2whpPa6TFiCzN7EbFCAxL4LkS_PvXHSp-gPro8
-
+    https://mega.co.nz/#!YAIBwZQC!BMCVV8C32WMpQE9QZHyG5NnrBDTuMp3_litBnmeVu0o
 *  Extract to C:\mingw
 
 This skips the compilation of required libraries and instead downloads precompiled ones.
@@ -197,19 +196,11 @@ cross-compiling, but it's convenient for us, too.
 10. Running Thrive
 -----------------
 
-* In Code::Blocks, select "install" as the build target and click on the 
-  "Build" button.
-
-* Go to your build/dist/bin directory and start Thrive.exe
-Note that the build/Thrive.exe will not work as it is not placed with the 
-necessary DLL files.
-
-* An ogre config will show up when you start Thrive. Selecting a non-0 value for FSAA anti aliasing will prevent a current issue with flickering on windows.
-
-Unfortunately, I haven't yet found a clean way to start (and debug) Thrive
-from within Code::Blocks due to the way Windows finds its shared libraries.
+* In Code::Blocks, go to Project->Properties->Build Targets then select Install on the left and change Type: from GUI Application to Console Application. Next, change Output Filename to "dist\bin\Thrive.exe" (without the quotes). If asks you to replace the file, replace it. Finally, click okay and exit.
 
 
+* Select "install" as the build target and click on the 
+  "Build and Run" button.
 
 Older Windows Platforms
 =======================

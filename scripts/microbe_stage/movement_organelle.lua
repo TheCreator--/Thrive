@@ -14,9 +14,12 @@ function MovementOrganelle:__init(force, torque)
     self.force = force
     self.torque = torque
     self.backwards_multiplier = 0
+<<<<<<< HEAD
 	self.x = 0
 	self.y = 0
 	self.angle = 0
+=======
+>>>>>>> Revolutionary-Games/master
 end
 
 function MovementOrganelle:onAddedToMicrobe(microbe, q, r)  

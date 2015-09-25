@@ -13,6 +13,7 @@
 #include "sound/sound_listener.h"
 
 #include <OgreSceneManager.h>
+<<<<<<< HEAD
 #include <OgreMeshManager.h>
 #include <OgreSubMesh.h>
 #include <OgreEntity.h>
@@ -29,6 +30,10 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+=======
+#include <OgreMeshManager.h>
+#include <OgreEntity.h>
+>>>>>>> Revolutionary-Games/master
 
 using namespace thrive;
 

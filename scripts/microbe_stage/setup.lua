@@ -96,7 +96,10 @@ function setupSpecies()
         end
         -- for _, org in pairs(organelles) do print(org.name, org.q, org.r) end
         speciesComponent.organelles = organelles
+<<<<<<< HEAD
 		
+=======
+>>>>>>> Revolutionary-Games/master
 
         -- iterates over all compounds, and sets amounts and priorities
         for compoundID in CompoundRegistry.getCompoundList() do
